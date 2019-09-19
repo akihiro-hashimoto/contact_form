@@ -15,8 +15,6 @@ $options = [
 
 $dsn = "mysql:host=$host;dbname=$dbname;charset=$charset";
 
-echo $dsn;
-
 // データベースへの接続
 try {
   // データベースへの接続実行
